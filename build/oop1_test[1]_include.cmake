@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/lgaek/C_Projects/oop1/build/oop1_test[1]_tests.cmake")
+  include("C:/Users/lgaek/C_Projects/oop1/build/oop1_test[1]_tests.cmake")
+else()
+  add_test(oop1_test_NOT_BUILT oop1_test_NOT_BUILT)
+endif()
